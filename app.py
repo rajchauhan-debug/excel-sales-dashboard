@@ -30,7 +30,7 @@ df = load_data()
 # DASHBOARD HEADER
 # ==================================================
 
-st.title("📊 Sales Analytics Dashboard")
+st.title("📊 Sales Analytics Dashboard - CI/CD Live")
 st.caption("Interactive Excel-Based Sales Data Analysis")
 
 
