@@ -33,3 +33,23 @@ jobs:
 
       - name: Build Docker image
         run: docker build -t excel-sales-dashboard . 
+
+          deploy:
+    name: Deploy to EC2
+    needs: test-and-build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Deploy to EC2
+        uses: appleboy/ssh-action@v1
+        with:
+          host: ${{ secrets.EC2_HOST }}
+          username: ${{ secrets.EC2_USER }}
+          key: ${{ secrets.EC2_SSH_KEY }}
+          script: |
+            cd ~/excel-sales-dashboard
+            git pull origin main
+            sudo docker build -t excel-sales-dashboard .
+            sudo docker stop sales-dashboard || true
+            sudo docker rm sales-dashboard || true
+            sudo docker run -d -p 8501:8501 --name sales-dashboard excel-sales-dashboard
