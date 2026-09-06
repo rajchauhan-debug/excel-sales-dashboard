@@ -7,7 +7,7 @@ import plotly.express as px
 # ==================================================
 
 st.set_page_config(
-    page_title="Sales Analytics Dashboard",
+    page_title="Sales Analytics Dashboard version - 2",
     page_icon="📊",
     layout="wide"
 )
