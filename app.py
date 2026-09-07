@@ -7,7 +7,7 @@ import plotly.express as px
 # ==================================================
 
 st.set_page_config(
-    page_title="Sales Analytics Dashboard version - 2",
+    page_title="Sales Analytics Dashboard",
     page_icon="📊",
     layout="wide"
 )
@@ -30,7 +30,7 @@ df = load_data()
 # DASHBOARD HEADER
 # ==================================================
 
-st.title("📊 Sales Analytics Dashboard - CI/CD Live")
+st.title("📊 Hey There I am Raj ")
 st.caption("Interactive Excel-Based Sales Data Analysis")
 
 
