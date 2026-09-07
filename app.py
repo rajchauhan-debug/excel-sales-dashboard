@@ -31,8 +31,7 @@ df = load_data()
 # ==================================================
 
 st.title("📊 Hey There I am Raj ")
-st.caption("Interactive Excel-Based Sales Data Analysis")
-
+st.caption("Sales performance overview | Updated deployment")
 
 # ==================================================
 # SIDEBAR FILTERS
