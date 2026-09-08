@@ -30,7 +30,7 @@ df = load_data()
 # DASHBOARD HEADER
 # ==================================================
 
-st.title("CI/CD Pipeline ")
+st.title("CI/CD Pipeline - DEMO ")
 st.caption("Sales performance overview | Updated deployment")
 
 # ==================================================
