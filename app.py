@@ -30,7 +30,7 @@ df = load_data()
 # DASHBOARD HEADER
 # ==================================================
 
-st.title("📊 Shivendra Guruji Website")
+st.title("📊 Shivendra Guruji")
 st.caption("Sales performance overview | Updated deployment")
 
 # ==================================================
