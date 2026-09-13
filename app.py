@@ -30,7 +30,7 @@ df = load_data()
 # DASHBOARD HEADER
 # ==================================================
 
-st.title("📊 Sales Analytics Dashboard - AUTO DEPLOYED 🚀")
+st.title("📊 Shivendra Guruji Website")
 st.caption("Sales performance overview | Updated deployment")
 
 # ==================================================
