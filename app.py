@@ -11,22 +11,6 @@ st.set_page_config(
     page_icon="📊",
     layout="wide"
 )
-
-st.markdown("""
-<style>
-    .stApp {
-        background-color: #FFFFFF;
-    }
-
-    [data-testid="stMetric"] {
-        background-color: #F8FAFC;
-        padding: 15px;
-        border-radius: 10px;
-        border: 1px solid #E5E7EB;
-    }
-</style>
-""", unsafe_allow_html=True)
-
 # ==================================================
 # LOAD DATA
 # ==================================================
