@@ -2,18 +2,12 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-# ==================================================
-# PAGE CONFIGURATION
-# ==================================================
 
 st.set_page_config(
     page_title="Sales Analytics Dashboard",
     page_icon="📊",
     layout="wide"
 )
-# ==================================================
-# LOAD DATA
-# ==================================================
 
 @st.cache_data
 def load_data():
@@ -25,16 +19,9 @@ def load_data():
 df = load_data()
 
 
-# ==================================================
-# DASHBOARD HEADER
-# ==================================================
-
-st.title("📊 Sales Analytics Dashboard - AUTO DEPLOYED 🚀")
+st.title("📊 checking pipeline🚀")
 st.caption("Sales performance overview | Updated deployment")
 
-# ==================================================
-# SIDEBAR FILTERS
-# ==================================================
 
 st.sidebar.header("🔍 Dashboard Filters")
 
